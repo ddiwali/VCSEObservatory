@@ -45,3 +45,55 @@
 </body>
 </html> 
 
+
+<div class="carousel-container">
+    <div class="carousel">
+        <div class="carousel-slide">
+            <div class="text-content">
+                <a href="here is website link" target="_blank">Text for picture 1</a>
+            </div>
+            <img src="https://www.ntu.ac.uk/__data/assets/image/0012/112071/Daniel_King_7784.jpg" alt="Image 1">
+        </div>
+        <div class="carousel-slide">
+            <div class="text-content">
+                <a href="here is website link" target="_blank">Text for picture 2</a>
+            </div>
+            <img src="https://www.ntu.ac.uk/__data/assets/image/0034/1928761/nbs-image.jpg" alt="Image 2">
+        </div>
+        <div class="carousel-slide">
+            <div class="text-content">
+                <a href="here is website link" target="_blank">Text for picture 3</a>
+            </div>
+            <img src="https://www.ntu.ac.uk/__data/assets/image/0020/2025353/Newton.jpg" alt="Image 3">
+        </div>
+    </div>
+    <div class="carousel-dots">
+        <span class="dot" onclick="moveSlide(0)"></span>
+        <span class="dot" onclick="moveSlide(1)"></span>
+        <span class="dot" onclick="moveSlide(2)"></span>
+    </div>
+</div>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("carousel-slide");
+        let dots = document.getElementsByClassName("dot");
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (let i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "flex";
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+</script>
+</body>
+</html>
+

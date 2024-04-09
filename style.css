@@ -25,7 +25,7 @@
 }
 
 .logo{
-    color: #fff;
+    color: #ff007f;
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -139,7 +139,7 @@ ul li a:hover{
 .content .cn{
     width: 160px;
     height: 40px;
-    background: #ff7200;
+    background: #ff007f;
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -165,7 +165,7 @@ ul li a:hover{
 
 .form{
     width: 250px;
-    height: 380px;
+    height: 300px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
     position: absolute;
     top: -20px;
@@ -200,3 +200,99 @@ ul li a:hover{
     font-family: sans-serif;
 
 }
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color:#fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+}
+
+/*Carousel - FU*/
+.carousel-container {
+    width: 77%;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+.text-content {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00f;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.text-content a{
+    text-decoration: none;
+}
+
+.text-content a:hover{
+    color: #E6005B;
+}
+
+.carousel-slide img {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.carousel-dots {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active {
+    background-color: #fff;
+}
+/*Carousel - END*/
+
