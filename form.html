@@ -1,23 +1,22 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>JOIN US</title>
-    </head>
-    <body>
-        <div class="JOIN US-container">
-            <form form action="https://api.web3forms.com/submit" method="POST" action="" class="contact-left">
-                <h2>JOIN US</h2>
-                <hr>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOIN US</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="join-us-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <h2>JOIN US</h2>
+            <hr>
             <input type="hidden" name="access_key" value="6ca0a163-3ca0-42ae-8bdb-d00c50eb4c73"> 
             <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
             <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-            <textarea name="Organization" placeholder="Your Organization" class="contact-inputs" required></textarea>
-                <button type="submit">Submit Form</button>
-                
-            </form>
-        </div>
+            <textarea name="organization" placeholder="Your Organization" class="contact-inputs" required></textarea>
+            <button type="submit">Submit Form</button>
+        </form>
     </div>
-    </body>
+</body>
 </html>
