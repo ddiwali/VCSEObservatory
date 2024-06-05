@@ -1,42 +1,65 @@
-/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
     padding: 20px;
-    margin: 10px;
 }
 
-/* Heading Styling */
-h1 {
+/* Contacts Container */
+.contacts-container {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
+}
+
+.contacts-container h1 {
     margin-bottom: 20px;
     color: #444;
+    font-size: 36px;
 }
 
-/* Paragraph Styling */
-.contact-us {
-    font-size: 18px;
+/* Contact Card */
+.contact-card {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
     margin-bottom: 20px;
-    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Link Styling */
-a {
-    display: block;
-    text-align: center;
-    margin-top: 20px;
-    color: #007BFF;
-    text-decoration: none;
+.contact-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
 }
 
-a:hover {
-    text-decoration: underline;
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-info p:last-child {
+    margin-bottom: 0;
 }
