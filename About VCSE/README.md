@@ -12,7 +12,9 @@ It is to tackle this gap that the VCSE Data and Insights Observatory was establi
 
 The observatory gathers data from various sources which fit into four categories:
 
-1.Existing data about the sector such as government statistics, administrative data (held by regulators such as the Charity Commission or Companies House), data held by local infrastructure organisations; 2.Observatory generating its own data, such as the VCSE Barometer which is the largest national quarterly survey of the sector run in conjunction with 14 national organisations; 3.Develops new data sources into the sector, such as bank transaction data with Experian on charitable giving; 4.Developing platforms for data collection by other organisations in a more unified way.
+1.Existing data about the sector such as government statistics, administrative data (held by regulators such as the Charity Commission or Companies House), data held by local infrastructure organisations; 
+2.Observatory generating its own data, such as the VCSE Barometer which is the largest national quarterly survey of the sector run in conjunction with 14 national organisations; 
+3.Develops new data sources into the sector, such as bank transaction data with Experian on charitable giving; 4.Developing platforms for data collection by other organisations in a more unified way.
 
 The Observatory’s ambition is to empower the sector to be able to analyse existing data and generate new data in ways that are consistent, trustworthy and comparable. The Observatory aims to create comparable data, reduce duplication, increase capacity, through the development of useful tools and resources, and build capability to support organisational decision-makers and analysts, placing data and evidence at the heart of decision-making. It will do this through creating tools and resources to make better use of existing data and methodologies that will be recognised by key decision-makers, to create a common framework for decision-making about the sector.
 
