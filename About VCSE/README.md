@@ -1,4 +1,4 @@
-#VCSE Observatory 
+VCSE Observatory 
 
 In the era of big data, leveraged data analytics to make informed decisions, and forecast future trends is becoming increasingly important. However, the Voluntary, Community, and Social Enterprise (VCSE) sector remains behind due to the lack of accurate, reliable, and timely data. Indeed data poverty is widely recognised as being a longstanding problem within the VCSE sector (The Young Foundation, 2021; MacLaughlin, 2016; Mercer, 2019). In contrast to the business sector, which has multiple long-standing surveys, such as the ESRC Decision Maker panel (ESRC, 2022) and numerous recognised health indicators, equivalents within the VCSE sector do not exist (Abramson, 2022). A recent landmark report states in “contrast to the private sector” the VCSE sector struggles to produce “recognised, reliable, and timely data”, making it “difficult for government to develop long-term strategies that enable the sector to maximise its potential” (Kenley and Wilding, 2021).
 
