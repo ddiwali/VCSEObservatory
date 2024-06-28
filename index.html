@@ -74,6 +74,13 @@
     </div>
 </div>
 
+</main>
+
+<footer>
+    <p>&copy; 2024 VCSE Observatory. All rights reserved.</p>
+    <a href="index.html">VCSE Main Page</a>
+</footer>
+
 <script>
     let slideIndex = 0;
     showSlides();
@@ -89,11 +96,13 @@
         for (let i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
         }
-        slides[slideIndex-1].style.display = "flex";
-        dots[slideIndex-1].className += " active";
+        slides[slideIndex - 1].style.display = "flex";
+        dots[slideIndex - 1].className += " active";
         setTimeout(showSlides, 3000); // Change image every 3 seconds
     }
 </script>
 </body>
 </html>
+
+
 
