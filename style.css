@@ -9,7 +9,7 @@
      background: #002147;
      background-position: center;
      background-size: cover;
-     height: 109vh;
+     height: 200vh;
 }
 
 .navbar{
@@ -295,3 +295,43 @@ ul li a:hover{
     background-color: #fff;
 }
 /*Carousel - END*/
+
+/* Contact Information */
+footer {
+    background: #002147;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .contact-info {
+    margin-bottom: 20px;
+}
+
+footer .contact-info h2, footer .contact-info h3 {
+    color: #ff7200;
+    margin: 10px 0;
+}
+
+footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .contact-info a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ff7200;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
