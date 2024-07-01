@@ -18,6 +18,16 @@
     margin: auto;
 }
 
+.navbar .icon {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.navbar .logo {
+    height: 150px; /* Adjust as needed */
+}
+
 .icon{
     width: 200px;
     float: left;
